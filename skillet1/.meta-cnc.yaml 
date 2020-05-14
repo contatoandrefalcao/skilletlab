@@ -30,9 +30,9 @@ labels:
 # type_hint defines the form field used by panhandler
 # type_hints can be text, ip_address, or dropdown
 variables:
-  - name: hostname
-    description: Firewall hostname
-    default: myFirewall
+  - name: NEW_TAG
+    description: New Tag desc
+    default: test
     type_hint: text
   - name: choices
     description: sample dropdown list
